@@ -5,6 +5,5 @@ var ctrlPages = require('../controllers/pages');
 /* GET home page. */
 router.get('/', ctrlPages.poems);
 router.get('/about', ctrlPages.about);
-router.get('/contact', ctrlPages.contact);
 
 module.exports = router;
