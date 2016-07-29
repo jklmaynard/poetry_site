@@ -7,6 +7,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  line-height: 1.75;
+}
+
 .poem_image {
   display: none;
 }

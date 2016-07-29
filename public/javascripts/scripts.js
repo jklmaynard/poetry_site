@@ -13,7 +13,7 @@ $(document).ready(function(event) {
     el = this.getAttribute('id');
     for (var i = 0; i < poems.length; i++) {
       if (el[i]) {
-        var img = 'p#image_' + el;
+        var img = 'div#image_' + el;
         $(img).show();
       }
     }
@@ -21,7 +21,7 @@ $(document).ready(function(event) {
     el = this.getAttribute('id');
     for (var i = 0; i < poems.length; i++) {
       if (el[i]) {
-        var img = 'p#image_' + el;
+        var img = 'div#image_' + el;
         $(img).hide();
       }
     }
