@@ -1,16 +1,34 @@
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-
-a {
-  text-decoration: none;
 }
 
 p {
   line-height: 1.75;
 }
 
+#footer {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+
+/****** POEM PAGE ELEMENTS ******/
+/*#author {
+  position: relative;
+}
+
+#poems {
+  margin-bottom: 150px;
+}*/
 .poem_image {
   display: none;
 }
