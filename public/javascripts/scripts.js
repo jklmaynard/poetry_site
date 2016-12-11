@@ -1,4 +1,4 @@
-var poems = ['two_poems', 'three_poems', 'laura_speaks', 'anxiety_of_place', 'bryant_park', 'apache_junction', 'whatdhegetinto', 'oppen_poems', 'nick_saban'];
+var poems = ['otis', 'two_poems', 'three_poems', 'laura_speaks', 'anxiety_of_place', 'bryant_park', 'apache_junction', 'whatdhegetinto', 'oppen_poems', 'nick_saban'];
 
 //Jquery code for hovering over poems
 $(document).ready(function(event) {
