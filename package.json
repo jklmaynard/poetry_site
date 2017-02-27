@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "postInstall": "node nightwatch.conf.js",
+    "start": "node app.js",
+    "e2e": "node_modules/.bin/nightwatch --config nightwatch.conf.js"
   },
   "engines": {
     "node": "~6.2.0",
@@ -17,5 +19,9 @@
     "jade": "~1.11.0",
     "morgan": "~1.6.1",
     "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "nightwatch": "^0.9.12",
+    "selenium-download": "^2.0.9"
   }
 }
