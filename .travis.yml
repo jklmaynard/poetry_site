@@ -4,6 +4,8 @@ node_js:
 - '6.1'
 env:
   global:
-  - GH_REF: github.com/kamranayub/kamranayub.github.io.git
+  - GH_REF: github.com/jklmaynard/poetry_site
+install:
+  npm install travis-ci
 script:
 - npm run trigger-build
