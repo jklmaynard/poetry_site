@@ -7,4 +7,4 @@ env:
   - GH_REF: github.com/kamranayub/kamranayub.github.io.git
 script:
 - npm run trigger-build
-- [ "${TRAVIS_PULL_REQUEST}" != "false" ] || ./deploy.sh'
+- '[ "${TRAVIS_PULL_REQUEST}" != "false" ] || ./deploy.sh'
