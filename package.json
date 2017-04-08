@@ -4,8 +4,11 @@
   "private": true,
   "scripts": {
     "postInstall": "node nightwatch.conf.js",
-    "start": "node app.js",
-    "e2e": "node_modules/.bin/nightwatch --config nightwatch.conf.js"
+    "node_start": "node app.js",
+    "gulp_watch": "gulp watch",
+    "start": "npm run gulp_watch & node app.js",
+    "e2e": "node_modules/.bin/nightwatch --config nightwatch.conf.js",
+    "trigger-build": "node trigger-build.js"
   },
   "engines": {
     "node": "~6.2.0",
@@ -21,7 +24,10 @@
     "serve-favicon": "~2.3.0"
   },
   "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
     "nightwatch": "^0.9.12",
-    "selenium-download": "^2.0.9"
+    "selenium-download": "^2.0.9",
+    "travis-ci": "^2.1.1"
   }
 }

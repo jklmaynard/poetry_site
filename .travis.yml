@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- '6'
+- '6.1'
+env:
+  global:
+  - GH_REF: github.com/kamranayub/kamranayub.github.io.git
+script:
+- npm run trigger-build
+- [ "${TRAVIS_PULL_REQUEST}" != "false" ] || ./deploy.sh'
