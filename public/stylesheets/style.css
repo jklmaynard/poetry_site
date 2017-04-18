@@ -20,15 +20,11 @@ p {
   margin-bottom: 20px;
 }
 
-
-/****** POEM PAGE ELEMENTS ******/
-/*#author {
-  position: relative;
-}
-
-#poems {
-  margin-bottom: 150px;
-}*/
 .poem_image {
   display: none;
 }
+
+.social-icon {
+  height: 25px;
+  margin: 0 10px 0 10px;
+  width: 25px;
