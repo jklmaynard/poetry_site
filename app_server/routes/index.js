@@ -3,7 +3,8 @@ var router = express.Router();
 var ctrlPages = require('../controllers/pages');
 
 /* GET home page. */
-router.get('/', ctrlPages.poems);
+router.get('/', ctrlPages.home);
 router.get('/about', ctrlPages.about);
+router.get('/poems', ctrlPages.poems);
 
 module.exports = router;

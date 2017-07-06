@@ -1,3 +1,5 @@
+
+/**********  ELEMENT STYLES  **********/
 a {
   text-decoration: none;
 }
@@ -11,10 +13,18 @@ body {
 p {
   line-height: 1.75;
 }
+
+/**********  ID STYLES  **********/
+#absence-of-an-earnest {
+  height: 300px;
+  width: 300px;
+}
 #footer {
   margin-top: 5px;
   margin-bottom: 20px;
 }
+
+/**********  CLASS STYLES  **********/
 .poem_image {
   display: none;
 }
