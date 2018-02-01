@@ -8,7 +8,6 @@ var bodyParser = require('body-parser');
 var port = process.env.PORT || 3000;
 
 var routes = require('./app_server/routes/index');
-var users = require('./app_server/routes/users');
 
 var app = express();
 var server = http.Server(app);
@@ -26,11 +25,12 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
-app.use('/users', users);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
+  console.log('catching 404 error');
+  console.log(err.message);
   err.status = 404;
   next(err);
 });
