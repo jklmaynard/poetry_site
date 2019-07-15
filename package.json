@@ -5,9 +5,6 @@
   "scripts": {
     "postInstall": "node nightwatch.conf.js",
     "node_start": "node app.js",
-    "gulp_watch": "gulp watch",
-    "start": "npm run gulp_watch & node app.js",
-    "e2e": "node_modules/.bin/nightwatch --config nightwatch.conf.js",
     "trigger-build": "node trigger-build.js"
   },
   "engines": {
@@ -15,17 +12,13 @@
     "npm": "~3.8.9"
   },
   "dependencies": {
-    "body-parser": "~1.13.2",
-    "cookie-parser": "~1.3.5",
-    "debug": "~2.2.0",
-    "express": "^4.13.4",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~4.1.1",
+    "express": "^4.17.1",
     "jade": "~1.11.0",
-    "morgan": "~1.6.1",
-    "serve-favicon": "~2.3.0"
+    "morgan": "^1.9.1",
+    "serve-favicon": "^2.5.0"
   },
-  "devDependencies": {
-    "browser-sync": "^2.18.8",
-    "gulp": "^3.9.1",
-    "travis-ci": "^2.1.1"
-  }
+  "devDependencies": {}
 }
