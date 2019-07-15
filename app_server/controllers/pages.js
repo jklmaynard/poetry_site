@@ -4,6 +4,6 @@ module.exports.home = function(req, res) {
 module.exports.poems = function(req, res) {
   res.render('poems', {title: 'Poems'});
 };
-module.exports.about = function(req, res) {
-  res.render('about', {title: 'About'});
-};
+module.exports.books = function(req, res) {
+  res.render('books', {title: 'Books'});
+}
