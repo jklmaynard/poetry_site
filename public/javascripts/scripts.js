@@ -1,4 +1,4 @@
-var poems = ['otis', 'two_poems', 'three_poems', 'bryant_park', 'whatdhegetinto', 'oppen_poems', 'nick_saban'];
+var poems = ['otis-sortie', 'otis', 'two_poems', 'three_poems', 'bryant_park', 'whatdhegetinto', 'oppen_poems', 'nick_saban'];
 
 //Jquery code for hovering over poems
 $(document).ready(function(event) {
